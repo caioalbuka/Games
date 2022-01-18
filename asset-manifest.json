@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Jogo-do-Quadrado/static/css/main.5d41c08b.css",
+    "main.js": "/Jogo-do-Quadrado/static/js/main.d1400037.js",
+    "index.html": "/Jogo-do-Quadrado/index.html",
+    "main.5d41c08b.css.map": "/Jogo-do-Quadrado/static/css/main.5d41c08b.css.map",
+    "main.d1400037.js.map": "/Jogo-do-Quadrado/static/js/main.d1400037.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d41c08b.css",
+    "static/js/main.d1400037.js"
+  ]
+}
