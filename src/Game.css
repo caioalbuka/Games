@@ -1,7 +1,7 @@
 :root {
-  --o-color: #2196f3;
-  --x-color: #f44336;
-  --e-color: #7777;
+  --o-color: #1f9925;
+  --x-color: #1857aa;
+  --e-color: rgba(203, 218, 73, 0.966);
 
   --green: #4caf50;
 }
@@ -19,7 +19,7 @@ body {
 
   font-family: sans-serif;
   height: 100vh;
-  background-color: #eee;
+  background-color: rgb(203, 145, 229);
 }
 
 .board.Game-Over {
@@ -29,11 +29,24 @@ body {
 .title {
   text-align: center;
   font-size: 3rem;
-  color: #555;
+  color: rgb(86, 13, 114);
   margin-bottom: 2rem;
 }
 .subtitle {
   margin: 10px;
+  color: rgb(141, 58, 173);
+}
+
+.bt-reset {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px 0 #000000;
+  background-color: #00000066;
+  color: white;
+  font-size: 1.2rem;
+
+  margin-left: 190px;
 }
 
 .board {
@@ -41,6 +54,8 @@ body {
   grid-template-columns: repeat(5, 40px);
   grid-template-rows: repeat(5, 40px);
   gap: 1rem;
+  margin-top: 50px;
+  justify-content: center;
 }
 
 .cell {
@@ -48,7 +63,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  background-color: white;
+  background-color: rgb(209, 177, 219);
   border-radius: 100%;
   font-size: 1rem;
   font-weight: bold;

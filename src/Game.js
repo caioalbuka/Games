@@ -64,16 +64,18 @@ const reset =() => {
 }
   return (
     <main>
-      <h1 className="title">Albuka Game</h1>
-      <h3 className="subtitle"> Quem fizer um quadrado primeiro vence!</h3>
+      <h1 className="title">Jogo do Quadrado</h1>
+      <h3 className="subtitle"> Quem fizer um quadrado de 4 bolas primeiro vence!</h3>
+        
+        <button className="bt-reset" onClick={reset}>Zerar</button>
       
       <div className={`board ${winner ? "Game-Over" : ""}`} >
     {board.map((item, index) => (
       <div 
-        key={index}
-        className={`cell ${item}`}
-        onClick={() => handleCellClick(index)}
-        >
+      key={index}
+      className={`cell ${item}`}
+      onClick={() => handleCellClick(index)}
+      >
           {item}
         </div>
 ))}       
